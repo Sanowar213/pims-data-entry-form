@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+
+<html lang="bn">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>PIMS Office</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Noto Sans Bengali', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f1f1f1;
+        }
+        header {
+            background: #0d47a1;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #1565c0;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            background: white;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            border-radius: 8px;
+        }
+        section h2 {
+            color: #0d47a1;
+        }
+        footer {
+            background: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+<h1>PIMS Office</h1>
+<p>প্রয়োজনী তথ্য ব্যতীত কোন তথ্য আপলোড করবেন না</p>
+</header>
+<nav>
+<a href="#about">তথ্য  সম্পর্কে</a>
+<a href="#services">সতর্কতা</a>
+<a href="#contact">যোগাযোগ</a>
+</nav>
+<section id="about">
+<h2>তথ্য সম্পর্কে</h2>
+<p>আপনাদের পারিবারের সদস্যদের তথ্যাদি যেমন মা/বাব/ভাই/বোন এবং বিবাহিত হলে স্বামী/স্ত্রীর তথ্যাদি প্রদান করবেন।</p>
+</section>
+<section id="services">
+<h2>যে সকল বিষয়ে সর্তকর্তা অবলম্বন করতে হবে</h2>
+<ul>
+<li>কোন তথ্য ভুল হলে সাথে সাথে আমাকে জানাবেন। অনথায় পুনঃরায় সাবমিট করবেন না। তথ্য একবারই সাবমিট করতে হবে ২য় বার করা যাবে না।</li>
+<li>চেষ্টা করবেন তাদের এনআইডি কার্ডের তথ্য দেওয়ার জন্য যেমন নামের বানান,জন্ম তারিখ,এনআইডি নম্বর ইত্যাদি।</li>
+<li>নিচে যোগাযোগ এর সকল তথ্য দেওয়া আছে যে কোন তথ্য ভুল সাবমিট হলে সাথে সাথে জানাবেন এবং কোন বিষয়ে না বুঝলে সাথে সাথে যোগাযোগ করবেন ধন্যবাদ।</li>
+</ul>
+</section>
+<section id="contact">
+<h2>যোগাযোগ</h2>
+<p><strong>ফোন:</strong> 01625727251</p>
+<p><strong>ইমেইল:</strong> pimsoffice7486@gmail.com</p>
+<p><strong>হোয়ার্টঅ্যাপ:</strong> 01625727251</p>
+<p><strong>ঠিকানা:</strong> আরও অফিস, পিআইএমএস অপারেটর (প্রশাসনিক ভবনের নিচ তলায়)</p>
+</section>
+<section id="submission">
+<h2>তথ্য জমা প্রদান ফরম</h2>
+<form action="https://formsubmit.co/pimsoffice7486@gmail.com" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+    <label for="br-number-name">ব্রাশ নম্বর ও নাম:</label>
+    <input type="text" id="br-number-name" name="ব্রাশ নম্বর ও নাম" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+
+    <label for="bp-number">বিপি নম্বর:</label>
+    <input type="text" id="bp-number" name="বিপি নম্বর" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" />
+    
+<label for="relation">সম্পর্ক:</label>
+<input id="relation" name="সম্পর্ক" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="text"/>
+<label for="name_bn">ব্যক্তির নাম (বাংলা):</label>
+<input id="name_bn" name="ব্যক্তির নাম (বাংলা)" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="text"/>
+<label for="name_en">ব্যক্তির নাম (ইংরেজি):</label>
+<input id="name_en" name="ব্যক্তির নাম (ইংরেজি)" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="text"/>
+<label for="occupation">পেশা:</label>
+<input id="occupation" name="পেশা" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="text"/>
+<label for="dob">জন্ম তারিখ:</label>
+<input id="dob" name="জন্ম তারিখ" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="date"/>
+<label for="father">পিতার নাম:</label>
+<input id="father" name="পিতার নাম" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="text"/>
+<label for="mother">মাতার নাম:</label>
+<input id="mother" name="মাতার নাম" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="text"/>
+<label for="marital_status">বৈবাহিক অবস্থা:</label>
+<select id="marital_status" name="বৈবাহিক অবস্থা" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+<option value="">-- নির্বাচন করুন --</option>
+<option value="বিবাহিত">বিবাহিত</option>
+<option value="অবিবাহিত">অবিবাহিত</option>
+<option value="তালাকপ্রাপ্ত">তালাকপ্রাপ্ত</option>
+</select>
+<label for="marriage_date">বিবাহের তারিখ (যদি প্রযোজ্য হয়):</label>
+<input id="marriage_date" name="বিবাহের তারিখ" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="date"/>
+<label for="blood_group">রক্তের গ্রুপ:</label>
+<input id="blood_group" name="রক্তের গ্রুপ" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="text"/>
+<label for="nid_birth">জাতীয় পরিচয়পত্র / জন্ম নিবন্ধন নম্বর:</label>
+<input id="nid_birth" name="জাতীয় পরিচয়পত্র / জন্ম নিবন্ধন নম্বর" required="" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;" type="text"/>
+<label for="remarks">অতিরিক্ত তথ্য / মন্তব্য:</label>
+<textarea id="remarks" name="অতিরিক্ত তথ্য / মন্তব্য" rows="4" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+<button style="background-color: #0d47a1; color: white; padding: 12px; border: none; border-radius: 5px; cursor: pointer;" type="submit">জমা দিন
+        </button>
+</form>
+<h2>তথ্য প্রদানকারীর বিবরণ</h2>
+<h2>তথ্য জমা প্রদান ফরম</h2>
+<form action="https://formsubmit.co/pimsoffice7486@gmail.com" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+
+
+
+
+
+
+
+
+
+<textarea id="remarks" name="remarks" rows="4" style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+
+
+<table style="width: 100%; border-collapse: collapse;">
+<tr>
+<td><label for="submitter_name">তথ্য প্রদানকারীর নাম:</label></td>
+<td><input id="submitter_name" name="তথ্য প্রদানকারীর নাম" required="" style="width: 100%; padding: 8px;" type="text"/></td>
+</tr>
+<tr>
+<td><label for="brush_number">ব্রাশ নম্বর:</label></td>
+<td><input id="brush_number" name="ব্রাশ নম্বর" required="" style="width: 100%; padding: 8px;" type="text"/></td>
+</tr>
+<tr>
+<td><label for="bp_number">বিপি নম্বর:</label></td>
+<td><input id="bp_number" name="বিপি নম্বর" required="" style="width: 100%; padding: 8px;" type="text"/></td>
+</tr>
+</table>
+<button style="background-color: #0d47a1; color: white; padding: 12px; margin-top: 15px; border: none; border-radius: 5px; cursor: pointer;" type="submit">জমা দিন</button>
+</form>
+</section>
+<footer>
+    © অফিস টাইম সকাল ০৯:০০ হতে বিকাল ০৫:০০ টার মধ্যে যোগাযোগ করার জন্য অনুরোধ করা হলো ধন্যবাদ সবাইকে তথ্য দিয়ে সাহায্য করার জন্য।
+</footer>
+</body>
+</html>
